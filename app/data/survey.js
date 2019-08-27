@@ -1,4 +1,4 @@
-$("#submit").on("click", function(event) {
+./*$("#submit-btn").on("click", function(event) {
     event.preventDefault();
 
     function validateForm() {
@@ -33,7 +33,6 @@ $("#submit").on("click", function(event) {
     $.post("/api/friends", userData, function(data) {
         $("#match-name").text(data.name);
         $("#match-img").attr("src", data.photo);
-        $("#results-modal").modal("toggle");
 
     });
     } else {
